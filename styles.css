@@ -90,6 +90,12 @@ img {
   font-weight: 700;
 }
 
+.brand-text {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .brand strong,
 .brand span {
   display: block;
@@ -100,6 +106,14 @@ img {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--muted);
+}
+
+.brand-logo {
+  display: block;
+  width: 170px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .brand-mark {
