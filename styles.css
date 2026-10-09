@@ -509,6 +509,8 @@ img {
   color: var(--text);
   text-decoration: none;
   line-height: 1.5;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .contact-item-wide {
@@ -581,6 +583,19 @@ img {
 
   .cta-box {
     padding: 28px 22px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    max-width: none;
+  }
+
+  .contact-item-wide {
+    grid-column: auto;
+  }
+
+  .cta-actions {
+    width: 100%;
   }
 }
 
