@@ -478,6 +478,43 @@ img {
   border: 1px solid rgba(255, 154, 61, 0.25);
 }
 
+.contact-box {
+  align-items: flex-start;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px 24px;
+  margin-top: 22px;
+  max-width: 620px;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.contact-item strong {
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.contact-item a,
+.contact-item span {
+  color: var(--text);
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.contact-item-wide {
+  grid-column: 1 / -1;
+}
+
 .cta-actions {
   display: flex;
   flex-wrap: wrap;
