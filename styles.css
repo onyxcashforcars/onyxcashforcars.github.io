@@ -6,8 +6,8 @@
   --card: rgba(255, 255, 255, 0.04);
   --text: #eaf2ff;
   --muted: #b9c4d8;
-  --primary: #ff9a3d;
-  --primary-dark: #ef7a1a;
+  --primary: #f8e204;
+  --primary-dark: #d8c300;
   --line: rgba(234, 242, 255, 0.12);
   --success: #72e6a9;
   --shadow: 0 24px 60px rgba(0, 0, 0, 0.25);
@@ -123,7 +123,7 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 12px;
-  background: linear-gradient(135deg, var(--primary), #ffbf5f);
+  background: linear-gradient(135deg, var(--primary), #f2d400);
   color: #0b1020;
   font-size: 1.4rem;
   font-weight: 800;
